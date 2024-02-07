@@ -1,5 +1,6 @@
 export default {
   content: ["./**/*.vue"],
+  safelist: ["font-primary", "font-secondary"],
   theme: {
     extend: {
       fontFamily: {
