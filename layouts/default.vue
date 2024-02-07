@@ -4,6 +4,10 @@ const pages: { title: string, path: string }[] = [
     title: 'Buttons',
     path: '/components/buttons',
   },
+  {
+    title: 'Dropdowns',
+    path: '/components/dropdowns',
+  },
 ]
 </script>
 <template>
