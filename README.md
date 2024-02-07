@@ -1,75 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Design system of TheNirvanaLabs ⚡️
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+We are open-sourcing the design system we use, so others can build products on top of it.
 
-## Setup
+# Open for all ❤️
 
-Make sure to install the dependencies:
+You can use this system any where, no attributions required.
 
-```bash
-# npm
-npm install
+# Powered by daisyUI 😇
 
-# pnpm
-pnpm install
+We use daisyUI on top of tailwind to configure our base CSS.
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### PS: This project is still a WIP.
