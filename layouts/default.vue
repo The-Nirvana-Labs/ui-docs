@@ -8,6 +8,10 @@ const pages: { title: string, path: string }[] = [
     title: 'Dropdowns',
     path: '/components/dropdowns',
   },
+  {
+    title: 'Modals',
+    path: '/components/modals'
+  }
 ]
 </script>
 <template>
