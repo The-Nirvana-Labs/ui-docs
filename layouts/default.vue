@@ -11,7 +11,7 @@ const pages: { title: string; path: string }[] = [
   {
     title: 'Modals',
     path: '/components/modals'
-  }
+  },
   {
     title: "Dropdowns",
     path: "/components/dropdowns",
