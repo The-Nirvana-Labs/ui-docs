@@ -11,6 +11,14 @@ const pages: { title: string, path: string }[] = [
   {
     title: 'Modals',
     path: '/components/modals'
+  },
+  {
+    title: 'Menus',
+    path: '/components/menus'
+  },
+  {
+    title: 'Navbars',
+    path: '/components/navbars'
   }
 ]
 </script>
