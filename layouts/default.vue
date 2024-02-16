@@ -19,6 +19,14 @@ const pages: { title: string, path: string }[] = [
   {
     title: 'Navbars',
     path: '/components/navbars'
+  },
+  // {
+  //   title: 'Drawers',
+  //   path: '/Components/drawers'
+  // },
+  {
+    title: 'Paginations',
+    path: '/Components/paginations'
   }
 ]
 </script>
