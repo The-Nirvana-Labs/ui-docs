@@ -16,9 +16,17 @@ const pages: { title: string, path: string }[] = [
     title: 'Menus',
     path: '/components/menus'
   },
+  // {
+  //   title: 'Navbars',
+  //   path: '/components/navbars'
+  // },
+  // {
+  //   title: 'Drawers',
+  //   path: '/Components/drawers'
+  // },
   {
-    title: 'Navbars',
-    path: '/components/navbars'
+    title: 'Paginations',
+    path: '/Components/paginations'
   }
 ]
 </script>
