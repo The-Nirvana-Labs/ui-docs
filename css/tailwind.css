@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply border border-zinc-800
+    hover:border-zinc-700 hover:bg-zinc-900
+}
+
+.btn-primary {
+    @apply border-zinc-50
+    hover:bg-zinc-400 hover:border-zinc-50
+}
+
+.btn-accent {
+    @apply hover:bg-zinc-300
+    hover:border-zinc-50 border-zinc-50
+}
+
+.btn-ghost {
+    @apply border-0 hover:border
+    hover:border-zinc-800
+}
+
+.btn-info {
+    @apply bg-sky-600 hover:bg-sky-800 border border-sky-400 hover:border-sky-600
+}
+
+.btn-success {
+    @apply bg-emerald-600 hover:bg-emerald-800 border border-emerald-400 hover:border-emerald-600
+}
+
+.btn-error {
+    @apply bg-rose-600 hover:bg-rose-800 border border-rose-400 hover:border-rose-600
+}
+
+.btn-warning {
+    @apply bg-yellow-600 hover:bg-yellow-800 border border-yellow-400 hover:border-yellow-600
+}

@@ -10,6 +10,9 @@ export default defineNuxtConfig({
       }
     }
   },
+  css: [
+    '~/css/tailwind.css', // Add this line to include your custom Tailwind CSS file
+  ],
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
   googleFonts: {
