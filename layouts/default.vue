@@ -27,7 +27,23 @@ const pages: { title: string, path: string }[] = [
   {
     title: 'Paginations',
     path: '/Components/paginations'
-  }
+  },
+  {
+    title: 'Links',
+    path: '/Components/links'
+  },
+  {
+    title: 'Bottom Navigations',
+    path: '/Components/bottomnavigations'
+  },
+  {
+    title: 'Tabs',
+    path: '/Components/tabs'
+  },
+  {
+    title: 'Radios',
+    path: '/Components/radios'
+  },
 ]
 </script>
 <template>
