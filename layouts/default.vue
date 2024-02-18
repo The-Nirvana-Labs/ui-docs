@@ -39,7 +39,11 @@ const pages: { title: string, path: string }[] = [
   {
     title: 'Tabs',
     path: '/Components/tabs'
-  }
+  },
+  {
+    title: 'Radios',
+    path: '/Components/radios'
+  },
 ]
 </script>
 <template>
