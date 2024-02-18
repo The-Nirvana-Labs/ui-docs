@@ -17,7 +17,7 @@ defineProps<{
       </div>
 
       <input type="radio" :name="title" role="tab" class="tab" aria-label="Code" />
-      <div role="tabpanel" class="tab-content pt-2 overflow-x-auto overflow-y-auto h-auto max-h-56">
+      <div role="tabpanel" class="tab-content pt-2 overflow-x-auto overflow-y-auto h-auto max-h-72">
         <pre lang="html">
           <slot name="code" />
         </pre>
