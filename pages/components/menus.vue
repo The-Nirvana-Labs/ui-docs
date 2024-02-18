@@ -2,7 +2,7 @@
   <Demonstration title="Menu">
     <template #output>
       <Center>
-        <ul class="menu bg-secondary w-56 rounded-box">
+        <ul class="menu w-56">
           <li><a>Item 1</a></li>
           <li><a>Item 2</a></li>
           <li><a>Item 3</a></li>
@@ -836,27 +836,6 @@
             <span class="badge badge-xs badge-info"></span>
           </a>
         </li>
-      </ul>
-      ` }}
-    </template>
-  </Demonstration>
-
-  <Demonstration title="Menu without padding and border radius">
-    <template #output>
-      <Center>
-        <ul class="menu bg-secondary w-56 p-0 [&_li>*]:rounded-none">
-          <li><a>Item 1</a></li>
-          <li><a>Item 2</a></li>
-          <li><a>Item 3</a></li>
-        </ul>
-      </Center>
-    </template>
-    <template #code>
-      {{ `
-      <ul class="menu bg-secondary w-56 p-0 [&_li>*]:rounded-none">
-        <li><a>Item 1</a></li>
-        <li><a>Item 2</a></li>
-        <li><a>Item 3</a></li>
       </ul>
       ` }}
     </template>

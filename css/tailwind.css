@@ -62,3 +62,13 @@
 .modal-box {
     @apply bg-zinc-950 border border-zinc-800 shadow-md
 }
+
+/*Menu*/
+
+.menu li{
+    @apply bg-secondary rounded-box border border-zinc-950/90 hover:border-zinc-800 rounded-xl;
+}
+
+.menu .active{
+    @apply rounded-box border border-zinc-800 rounded-xl;
+}
