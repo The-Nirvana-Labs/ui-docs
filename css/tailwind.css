@@ -72,3 +72,11 @@
 .menu .active{
     @apply rounded-box border border-zinc-800 rounded-xl;
 }
+
+/*Navbar*/
+
+.navbar {
+    @apply bg-zinc-950 border-b border-zinc-900;
+}
+
+/*Tab*/
