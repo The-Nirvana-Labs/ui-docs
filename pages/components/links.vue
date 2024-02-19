@@ -24,19 +24,6 @@
       ` }}
     </template>
   </Demonstration>
-  
-  <Demonstration title="Secondary color">
-    <template #output>
-      <Center>
-        <a class="link link-secondary">I'm a simple link</a>
-      </Center>
-    </template>
-    <template #code>
-      {{ `
-        <a class="link link-secondary">I'm a simple link</a>
-      ` }}
-    </template>
-  </Demonstration>
 
   <Demonstration title="Accent color">
     <template #output>
@@ -47,19 +34,6 @@
     <template #code>
       {{ `
         <a class="link link-accent">I'm a simple link</a>
-      ` }}
-    </template>
-  </Demonstration>
-
-  <Demonstration title="Neutral color">
-    <template #output>
-      <Center>
-        <a class="link link-neutral">I'm a simple link</a>
-      </Center>
-    </template>
-    <template #code>
-      {{ `
-        <a class="link link-neutral">I'm a simple link</a>
       ` }}
     </template>
   </Demonstration>
