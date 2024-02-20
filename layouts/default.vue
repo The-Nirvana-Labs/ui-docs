@@ -57,6 +57,10 @@ const pages: { title: string; path: string }[] = [
     path: "/components/radios",
   },
   {
+    title: "Range Sliders",
+    path: "/components/rangesliders"
+  },
+  {
     title: "Tabs",
     path: "/components/tabs",
   },
