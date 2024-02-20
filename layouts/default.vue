@@ -14,11 +14,11 @@ const pages: { title: string; path: string }[] = [
   },
   {
     title: "Bottom Navigations",
-    path: "/Components/bottomnavigations",
+    path: "/components/bottomnavigations",
   },
   {
     title: "Checkboxes",
-    path: "/Components/checkboxes"
+    path: "/components/checkboxes"
   },
   // {
   //   title: 'Drawers',
@@ -29,8 +29,12 @@ const pages: { title: string; path: string }[] = [
     path: "/components/dropdowns",
   },
   {
+    title: "File Inputs",
+    path: "/components/fileinputs"
+  },
+  {
     title: "Links",
-    path: "/Components/links",
+    path: "/components/links",
   },
   {
     title: "Modals",
@@ -46,15 +50,15 @@ const pages: { title: string; path: string }[] = [
   },
   {
     title: "Paginations",
-    path: "/Components/paginations",
+    path: "/components/paginations",
   },
   {
     title: "Radios",
-    path: "/Components/radios",
+    path: "/components/radios",
   },
   {
     title: "Tabs",
-    path: "/Components/tabs",
+    path: "/components/tabs",
   },
 ];
 </script>
