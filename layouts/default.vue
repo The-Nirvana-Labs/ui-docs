@@ -5,6 +5,10 @@ const pages: { title: string; path: string }[] = [
     path: "/components/avatars",
   },
   {
+    title: "Badges",
+    path: "/components/badges",
+  },
+  {
     title: "Alerts",
     path: "/components/alerts",
   },
