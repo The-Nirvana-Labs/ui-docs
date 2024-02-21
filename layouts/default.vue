@@ -13,8 +13,28 @@ const pages: { title: string; path: string }[] = [
     path: "/components/buttons",
   },
   {
+    title: "Bottom Navigations",
+    path: "/components/bottomnavigations",
+  },
+  {
+    title: "Checkboxes",
+    path: "/components/checkboxes"
+  },
+  // {
+  //   title: 'Drawers',
+  //   path: '/Components/drawers'
+  // },
+  {
     title: "Dropdowns",
     path: "/components/dropdowns",
+  },
+  {
+    title: "File Inputs",
+    path: "/components/fileinputs"
+  },
+  {
+    title: "Links",
+    path: "/components/links",
   },
   {
     title: "Modals",
@@ -28,29 +48,21 @@ const pages: { title: string; path: string }[] = [
     title: "Navbars",
     path: "/components/navbars",
   },
-  // {
-  //   title: 'Drawers',
-  //   path: '/Components/drawers'
-  // },
   {
     title: "Paginations",
-    path: "/Components/paginations",
-  },
-  {
-    title: "Links",
-    path: "/Components/links",
-  },
-  {
-    title: "Bottom Navigations",
-    path: "/Components/bottomnavigations",
-  },
-  {
-    title: "Tabs",
-    path: "/Components/tabs",
+    path: "/components/paginations",
   },
   {
     title: "Radios",
-    path: "/Components/radios",
+    path: "/components/radios",
+  },
+  {
+    title: "Range Sliders",
+    path: "/components/rangesliders"
+  },
+  {
+    title: "Tabs",
+    path: "/components/tabs",
   },
 ];
 </script>
