@@ -65,6 +65,10 @@ const pages: { title: string; path: string }[] = [
     path: "/components/rangesliders"
   },
   {
+    title: "Skeletons",
+    path: "/components/skeletons"
+  },  
+  {
     title: "Tabs",
     path: "/components/tabs",
   },
