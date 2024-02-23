@@ -41,12 +41,20 @@ const pages: { title: string; path: string }[] = [
     path: "/components/links",
   },
   {
-    title: "Modals",
-    path: "/components/modals",
-  },
-  {
     title: "Menus",
     path: "/components/menus",
+  },
+  {
+    title: "Mockup Browsers",
+    path: "/components/mockupbrowsers"
+  },
+  {
+    title: "Mockup Codes",
+    path: "/components/mockupcodes"
+  },
+  {
+    title: "Modals",
+    path: "/components/modals",
   },
   {
     title: "Navbars",
@@ -63,6 +71,10 @@ const pages: { title: string; path: string }[] = [
   {
     title: "Range Sliders",
     path: "/components/rangesliders"
+  },
+  {
+    title: "Steps",
+    path: "/components/steps"
   },
   {
     title: "Tabs",
