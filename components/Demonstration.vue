@@ -12,7 +12,7 @@ defineProps<{
     </div>
     <div role="tablist" class="tabs tabs-bordered">
       <input type="radio" :name="title" role="tab" class="tab" aria-label="Preview" checked />
-      <div role="tabpanel" class="tab-content h-auto pt-3">
+      <div role="tabpanel" class="tab-content h-auto pt-3 overflow-x-auto">
         <slot name="output" />
       </div>
 
