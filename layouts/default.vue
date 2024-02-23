@@ -92,6 +92,10 @@ const pages: { title: string; path: string }[] = [
     title: "Tabs",
     path: "/components/tabs",
   },
+  {
+    title: "Toggles",
+    path: "/components/toggles",
+  },  
 ];
 </script>
 <template>
