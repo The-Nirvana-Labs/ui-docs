@@ -68,6 +68,10 @@ const pages: { title: string; path: string }[] = [
     title: "Tabs",
     path: "/components/tabs",
   },
+  {
+    title: "Tooltips",
+    path: "/components/tooltips",
+  },  
 ];
 </script>
 <template>
