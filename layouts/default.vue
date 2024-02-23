@@ -37,6 +37,10 @@ const pages: { title: string; path: string }[] = [
     path: "/components/fileinputs"
   },
   {
+    title: "Indicators",
+    path: "/components/indicators"
+  },  
+  {
     title: "Links",
     path: "/components/links",
   },
