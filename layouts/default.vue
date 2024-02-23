@@ -41,6 +41,14 @@ const pages: { title: string; path: string }[] = [
     path: "/components/links",
   },
   {
+    title: "Loading",
+    path: "/components/loadingAnimations",
+  },  
+  {
+    title: "Modals",
+    path: "/components/modals",
+  },
+  {
     title: "Menus",
     path: "/components/menus",
   },
