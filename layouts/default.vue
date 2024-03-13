@@ -37,8 +37,20 @@ const pages: { title: string; path: string }[] = [
     path: "/components/fileinputs"
   },
   {
+    title: "Indicators",
+    path: "/components/indicators"
+  },  
+  {
     title: "Links",
     path: "/components/links",
+  },
+  {
+    title: "Loading",
+    path: "/components/loadingAnimations",
+  },  
+  {
+    title: "Modals",
+    path: "/components/modals",
   },
   {
     title: "Menus",
@@ -73,6 +85,10 @@ const pages: { title: string; path: string }[] = [
     path: "/components/rangesliders"
   },
   {
+    title: "Skeletons",
+    path: "/components/skeletons"
+  },  
+  {
     title: "Steps",
     path: "/components/steps"
   },
@@ -80,6 +96,10 @@ const pages: { title: string; path: string }[] = [
     title: "Tabs",
     path: "/components/tabs",
   },
+  {
+    title: "Tooltips",
+    path: "/components/tooltips",
+  },  
 ];
 </script>
 <template>
