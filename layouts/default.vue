@@ -89,6 +89,10 @@ const pages: { title: string; path: string }[] = [
     path: "/components/ratings"
   },
   {
+    title: "Selects",
+    path: "/components/selects"
+  },
+  {
     title: "Skeletons",
     path: "/components/skeletons"
   },  
