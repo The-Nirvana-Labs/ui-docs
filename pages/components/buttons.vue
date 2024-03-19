@@ -147,7 +147,7 @@
   <Demonstration title="Buttons with different HTML tags">
     <template #output>
       <Center>
-        <div>
+        <div class="flex space-x-2">
           <a role="button" class="btn btn-primary">Link</a>
           <button type="submit" class="btn btn-primary">Button</button>
           <input type="button" value="Input" class="btn btn-primary" />
@@ -174,7 +174,7 @@
   <Demonstration title="Disabled Buttons">
     <template #output>
       <Center>
-        <div>
+        <div class="flex space-x-2">
           <button class="btn btn-primary" disabled>
             Disabled using attribute
           </button>
@@ -206,7 +206,7 @@
   <Demonstration title="Circle Buttons">
     <template #output>
       <Center>
-        <div class="flex">
+        <div class="flex space-x-2">
           <button class="btn btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"

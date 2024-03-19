@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="flex-col w-full justify-center my-6 border p-3 rounded border-secondary">
+  <div class="flex-col w-full justify-center my-6 border-2 p-4 rounded border-zinc-900 rounded-xl">
     <div class="text-lg font-bold my-3">{{ title }}</div>
     <div class="my-2">
        <slot name="info"></slot>

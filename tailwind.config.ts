@@ -14,11 +14,12 @@ export default {
       {
         nirvana: {
           primary: "#E4E4E7",
-          secondary: "#09090B",
+          secondary: "#27272a",
           accent: "#fafafa",
           'accent-content': '#09090B',
-          neutral: "#09090B",
+          neutral: "#27272a",
           "base-100": "#09090B",
+          "base-200": "#27272a",
 
           info: "#0284c7",
           'info-content': '#fafafa',
