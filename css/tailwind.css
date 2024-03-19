@@ -6,7 +6,7 @@
 /*Buttons*/
 
 .btn {
-    @apply border-2 border-zinc-700
+    @apply border border-zinc-700
     hover:border-zinc-600 hover:bg-zinc-800;
 }
 
