@@ -105,8 +105,8 @@ const pages: { title: string; path: string }[] = [
 <template>
   <section class="drawer lg:drawer-open">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content">
-      <div class="navbar bg-base-100">
+    <div class="drawer-content px-10">
+      <div class="navbar bg-zinc-100">
         <div class="flex-none">
           <label
             for="my-drawer"
@@ -147,7 +147,7 @@ const pages: { title: string; path: string }[] = [
       ></label>
       <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
         <div class="text-xl font-bold my-3">Components</div>
-        <li v-for="page in pages" :key="page.path">
+        <li v-for="page in pages" class="my-2" :key="page.path">
           <NuxtLink :to="page.path">{{ page.title }}</NuxtLink>
         </li>
       </ul>

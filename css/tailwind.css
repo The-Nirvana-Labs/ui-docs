@@ -6,8 +6,8 @@
 /*Buttons*/
 
 .btn {
-    @apply border border-zinc-800
-    hover:border-zinc-700 hover:bg-zinc-900;
+    @apply border-2 border-zinc-700
+    hover:border-zinc-600 hover:bg-zinc-800;
 }
 
 .btn-primary {
@@ -26,19 +26,19 @@
 }
 
 .btn-info {
-    @apply bg-sky-600 hover:bg-sky-800 border border-sky-400 hover:border-sky-600;
+    @apply bg-sky-600 hover:bg-sky-800 border-sky-400 hover:border-sky-600;
 }
 
 .btn-success {
-    @apply bg-emerald-600 hover:bg-emerald-800 border border-emerald-400 hover:border-emerald-600;
+    @apply bg-emerald-600 hover:bg-emerald-800 border-emerald-400 hover:border-emerald-600;
 }
 
 .btn-error {
-    @apply bg-rose-600 hover:bg-rose-800 border border-rose-400 hover:border-rose-600;
+    @apply bg-rose-600 hover:bg-rose-800 border-rose-400 hover:border-rose-600;
 }
 
 .btn-warning {
-    @apply bg-yellow-600 hover:bg-yellow-800 border border-yellow-400 hover:border-yellow-600;
+    @apply bg-yellow-600 hover:bg-yellow-800 border-yellow-400 hover:border-yellow-600;
 }
 
 /*Dropdowns*/
